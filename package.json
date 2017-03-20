@@ -1,0 +1,59 @@
+{
+  "name": "text2svg",
+  "version": "1.0.0",
+  "description": "Convert text to svg path.",
+  "main": "index.js",
+  "author": {
+    "name": "bubkoo"
+  },
+  "license": "MIT",
+  "keywords": [
+    "convert",
+    "text",
+    "svg",
+    "path",
+    "pathdata",
+    "graphics",
+    "fonts"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bubkoo/text2svg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bubkoo/text2svg/issues"
+  },
+  "homepage": "https://github.com/bubkoo/text2svg#readme",
+  "dependencies": {
+    "opentype.js": "^0.6.2"
+  },
+  "gitHead": "2337402e1be31a9560a167e37ce06557eafa8c99",
+  "_id": "text2svg@1.0.0",
+  "_shasum": "0162eedd0ecab641d90e6675d17b371938d83a6e",
+  "_from": "text2svg@*",
+  "_npmVersion": "3.8.5",
+  "_nodeVersion": "4.4.0",
+  "_npmUser": {
+    "name": "bubkoo",
+    "email": "bubkoo.wy@gmail.com"
+  },
+  "dist": {
+    "shasum": "0162eedd0ecab641d90e6675d17b371938d83a6e",
+    "tarball": "https://registry.npmjs.org/text2svg/-/text2svg-1.0.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "bubkoo",
+      "email": "bubkoo@163.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/text2svg-1.0.0.tgz_1460802168639_0.3716255468316376"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/text2svg/-/text2svg-1.0.0.tgz"
+}
