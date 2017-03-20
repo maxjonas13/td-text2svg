@@ -1,15 +1,17 @@
+
+> # Original module and all credits to: [https://github.com/bubkoo/text2svg](https://github.com/bubkoo/text2svg)
 # text2svg
 
 > Convert text to svg path
 
-[![MIT License](https://img.shields.io/badge/license-MIT_License-green.svg?style=flat-square)](https://github.com/bubkoo/text2svg/blob/master/LICENSE) 
+[![MIT License](https://img.shields.io/badge/license-MIT_License-green.svg?style=flat-square)](https://github.com/bubkoo/text2svg/blob/master/LICENSE)
 [![npm:](https://img.shields.io/npm/v/text2svg.svg?style=flat-square)](https://www.npmjs.com/packages/text2svg)
 
 
 ## Install
 
 ```
-$ npm install --save text2svg 
+$ npm install --save text2svg
 ```
 
 ## Usage
@@ -36,7 +38,7 @@ The `callback` function looks like:
 function (text2svg) {
     // ...
 }
-``` 
+```
 
 ### toPathData(text, options)
 
@@ -66,7 +68,7 @@ Convert the `text` to `<path>` element(s). Return:
 ```
 
 ### toSVG(text, options)
- 
+
 Convert the `text` to `<svg>` element. Return:
 
 ```js
@@ -125,7 +127,7 @@ This option only works for `toSVG()`.
 
 ### Styling the elements
 
-Specify the padding of the `<path>` relative to the `<svg>`: 
+Specify the padding of the `<path>` relative to the `<svg>`:
 
 - options.padding
 - options.paddingTop/options['padding-top']
@@ -133,7 +135,7 @@ Specify the padding of the `<path>` relative to the `<svg>`:
 - options.paddingBottom/options['padding-bottom']
 - options.paddingLeft/options['padding-left']
 
-The `<svg>`, `<path>` and `<g>` elements can be styled by any valid attributes. 
+The `<svg>`, `<path>` and `<g>` elements can be styled by any valid attributes.
 
 The generated `<svg>` has the following default attributes:
 
@@ -176,12 +178,12 @@ options.path0 = {
 };
 ```
 
-As the same `options.g` specified the style of `<g>` element. 
+As the same `options.g` specified the style of `<g>` element.
 
 
- 
+
 ## Related
-   
+
 - [logo.svg](https://github.com/bubkoo/logo.svg) Generate a svg logo, then you can embed it in you `README.md`.
 
 
